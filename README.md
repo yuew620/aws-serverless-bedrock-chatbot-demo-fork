@@ -1,3 +1,8 @@
+## intro
+this is a fork of
+
+https://github.com/aws-samples/aws-serverless-openai-chatbot-demo/tree/bedrock
+
 # LarkBot-Bedrock Claude3
 Build a bot in Lark (飞书) using Bedrock Claude3 model. The backend is hosted on AWS's serverless
 For steps in Lark side, please refer to [develop-a-bot-in-5-minute](https://open.feishu.cn/document/home/develop-a-bot-in-5-minutes/create-an-app)
