@@ -100,7 +100,7 @@ const queryEventsDDB = async (key) => {
     const queryKey = { event_id: { S: key } };
     const results = await _queryDynamoDb(dynamodb_tb_events, queryKey);
     if (results!=null &&  'header_data' in results.Item){
-        return JSON.parse(results.Item.header.S);
+        return JSON.parse(results.Item.header_data.S);
     }
     return null;
 };
